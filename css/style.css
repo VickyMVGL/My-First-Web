@@ -4,6 +4,10 @@ body {
     font-size: 20px; 
 }
 
+.code {
+    color: whitesmoke;
+}
+
 .heads1 {
     font-family: 'Montserrat', sans-serif;
     text-align: center;
@@ -62,15 +66,7 @@ body {
 .background-2 {
     background-color: #1C1B2B;
 }
-/*
-.boton {
-    color:white;
-    font-size: 30px;
-    font-family: 'Montserrat', sans-serif;
-    text-align: center;
-    text-decoration: none;
-}
-*/
+
 .estilo1 {
     color:#303030;
     font-size: 50px;
