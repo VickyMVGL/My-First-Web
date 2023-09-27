@@ -9,20 +9,25 @@
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
 
-    <!--CSS-->
+    <!--CSS / SASS-->
 
-        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/styles.css">
 
     <!--Fonts-->
+    
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,800&display=swap" rel="stylesheet">
 
     <title>Code Ninjas</title>
 </head>
 <body>
     <header>
-        <img src="assets/Banner_code.png">
+        <img src="assets/Banner_code.png" style="height: 300px; width: 100% ">  
+
+        <!--Barra de navegacion-->
+
         <div>
           <nav class="navbar navbar-expand-lg navbar-light navbar-dark bg-dark">
             <div class="container-fluid">
@@ -51,55 +56,54 @@
             </div>
           </nav>
         </div>
-        <!--
-        <nav class="navbar navbar-expand-md flex-container bg-dark border-bottom border-body" data-bs-theme="dark">
-            <div class="container-fluid">
-                <a class="navbar-brand code">CODE NINJAS</a>
-                <div class="flex-container">
-                    <a class="btn btn-sm btn-outline-secondary me-2 boton"  href="index.html">Inicio</a>
-                    <a class="btn btn-sm btn-outline-secondary boton"  href="pages/servicios.html">Servicios</a>
-                    <a class="btn btn-sm btn-outline-secondary boton"  href="pages/FAQ.html">FAQ</a>
-                    <a class="btn btn-sm btn-outline-secondary boton"  href="pages/SobreNosotros.html">¿Quienes somos?</a>
-                    <a class="btn btn-sm btn-outline-secondary boton"  href="pages/contact.html">Contactanos</a>
-                </div>
-            </div>
-        </nav>
--->
     </header>
+   
     <main>
-        <div class="box3">
-            <p class="word">En nuestra agencia de desarrollo de software, hemos hecho realidad las visiones de innumerables emprendedores y empresas, llevándolas desde una idea brillante hasta una solución tecnológica impactante. Nuestro equipo apasionado y experimentado no solo construye aplicaciones y sistemas, sino que crea experiencias que cambian vidas.</p>
+      <section class="intro">
+        <!--Parrafo de presentacion-->
+        <div>
+          <section class="hero_main container">
+            <div class="texts"> 
+              <h1 class="title">Una Agencia para ti</h1>
+              <p class="subtitle">En nuestra agencia de desarrollo de software, hemos hecho realidad las visiones de innumerables emprendedores y empresas, llevándolas desde una idea brillante hasta una solución tecnológica impactante. Nuestro equipo apasionado y experimentado no solo construye aplicaciones y sistemas, sino que crea experiencias que cambian vidas.</p>
+              <a href="#" class="btn btn-primary boton alingn-center">Sobre Nosotros</a>
+            </div>
+            <figure class="hero_picture">
+              <img src="assets/Programando.png" alt="Imagen programando" class="img">
+            </figure>
+          </section>
         </div>
-        <img src="assets/Desarrollo_Soft.png" class="img1">
+      </section>
+    </main>
 
-            <h2 class="heads1">Nuestros servicios</h2>
+      <!-- nuestros servicios-->
 
-        <div class="flex-container">
-          <div class="card" style="width: 18rem;">
-            <img src="assets/Des-apps-mobile.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Desarrollo de</h5>
-              <h5 class="card-title">Aplicaciones Moviles</h5>
+          <h2 class="header">Nuestros servicios</h2>
+
+          <section class="container_index">
+            <div class="card" style="width: 20rem;">
+              <img src="assets/Des-apps-mobile.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Desarrollo de</h5>
+                <h5 class="card-title">Aplicaciones Moviles</h5>
+              </div>
+            </div>
+            <div class="card" style="width: 20rem;">
+              <img src="assets/Des-apps-mobile.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Desarrollo de</h5>
+                <h5 class="card-title">Aplicaciones Moviles</h5>
             </div>
           </div>
-          <div class="card" style="width: 18rem;">
-            <img src="assets/Des-sitios-web.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Desarrollo de</h5>
-              <h5 class="card-title">Sitios Web</h5>
+            <div class="card" style="width: 20rem;">
+              <img src="assets/Des-sitios-web.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Desarrollo de</h5>
+                <h5 class="card-title">Sitios Web</h5>
+              </div>
             </div>
-          </div>
-          <div class="card" style="width: 18rem;">
-            <img src="assets/Des-software.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Desarrollo de</h5>
-              <h5 class="card-title">Software Personalizado</h5>
-            </div>
-          </div>
-        </div>
-        <div class="alingn-center"> 
-          <a class="btn boton" href="pages/servicios.html" role="button">Ver mas</a>
-        </div>
+          </section>
+
 
           <!--
             <div class="carousel-inner carousel-inner2">
@@ -162,7 +166,13 @@
                 <span class="visually-hidden">Next</span>
             </button>
             -->
-        </div>
+
+
+            
+        
+ 
+        
+        <!--Referencias-->
 
         <section id="referencia" class="flex-container margen">
             <div id="carouselExampleCaptions" class="carousel slide">
@@ -205,9 +215,11 @@
               </div>
         </section>
 
-        <h2 class="heads1">Preguntas frecuentes</h2>
+        <!--Preguntas Frecuentes-->
 
-        <section class="flex-container">
+        <h2 class="header">Preguntas frecuentes</h2>
+
+        <section class="container_index">
           <div class="card" style="width: 18rem;">
             <img src="assets/Pregunta tiempo.png" class="card-img-top" alt="imagen tiempo">
             <div class="card-body">
@@ -234,9 +246,8 @@
         <div class="alingn-center"> 
           <a class="btn boton" href="pages/FAQ.html" role="button">Ver mas preguntas frecuentes</a>
         </div>
-        
-    </main>
 
+    </main>
 
 
     <footer>
@@ -256,6 +267,7 @@
         </div>
 
     </footer>
+  
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 </body>
 </html>
