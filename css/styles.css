@@ -59,7 +59,7 @@ body .container_index {
 }
 @media (min-width: 768px) {
   .texts {
-    flex: 1;
+    flex-direction: row;
   }
 }
 .texts .title {
@@ -81,6 +81,11 @@ body .container_index {
 
 .contacto {
   color: #303030;
+}
+
+.bg_header {
+  background-image: url("/assets/Banner_code.png");
+  width: 100%;
 }
 
 .brand-footer-margin {
@@ -109,6 +114,10 @@ body .container_index {
   align-content: center;
 }
 
+.card {
+  width: 20rem;
+}
+
 .servicios {
   margin: 20px 50px 20px 50px;
 }
@@ -124,163 +133,5 @@ body .container_index {
   color: #303030;
   font-weight: 400;
 }
-
-/*
-.text {
-	color: $color_3;
-}
-.boton {
-	background-color: $background-color_2;
-	color: $color_3;
-	border: #F8B179;
-	margin: 5px;
-}
-.formulario {
-	margin: 50px 100px 50px 100px;
-	padding: 20px;
-}
-.word {
-	font-size: 1.5em;
-	color: $color_3;
-}
-
-}
-.margen2 {
-	margin: 100px 150px 100px 150px;
-}
-
-.accordion-active-color {
-	background-color: $background-color_2;
-}
-.background-2 {
-	background-color: $background-color_3;
-}
-.estilo1 {
-	color: $color_3;
-	font-size: 50px;
-	font-family: $font;
-	text-align: center;
-	margin: 1em 2em 1em 2em;
-}
-.heads {
-	font-size: 2em;
-	width: 100%;
-	font-family: $font-family_1;
-	text-align: center;
-}
-.box {
-	display: inline-block;
-	background-color: $background-color_2;
-	font-family: $font-family_1;
-	font-size: 1em;
-	padding: 20px;
-	margin: 60px 40px 60px 40px;
-	color: $color_3;
-	width: 300px;
-	height: 600px;
-	align-content: center;
-}
-.box2 {
-	display: inline-block;
-	background-color: $background-color_2;
-	font-family: $font-family_1;
-	font-size: 1em;
-	color: $color_3;
-	align-content: center;
-}
-.box3 {
-	background-color: $background-color_2;
-	color: $color_3;
-	font-family: $font-family_1;
-	font-size: 0.75em;
-	margin-top: 200px;
-	padding: 50px 100px 50px 40%;
-}
-.box4 {
-	background-color: $background-color_2;
-	color: $color_3;
-	font-family: $font-family_1;
-	font-size: 0.75em;
-	margin-top: 200px;
-	padding: 50px 40% 50px 100px;
-}
-.img1 {
-	width: 250px;
-	margin-left: 100px;
-	margin-top: -400px;
-	margin-bottom: 50px;
-	border: 30px #F8B179;
-	padding: 10px;
-	background-color: $background-color_2;
-}
-.img2 {
-	width: 250px;
-	margin-left: 60%;
-	margin-top: -400px;
-	margin-bottom: 50px;
-	border: 30px #F8B179;
-	padding: 10px;
-	background-color: $background-color_2;
-}
-.referencia {
-	font-family: $font-family_1;
-	font-size: 1em;
-	width: 100%;
-}
-.TamImg {
-	height: 200px;
-	width: 200px;
-}
-.servicios {
-	font-family: $font-family_1;
-	font-size: 1em;
-	margin-left: 15%;
-	margin-right: 15%;
-	align-content: center;
-}
-.listadesordenada {
-	text-align: center;
-	text-decoration: none;
-	list-style-type: none;
-	outline-style: none;
-}
-.listaordenada {
-	text-align: left;
-	list-style-type: none;
-}
-.listadesordenada2 {
-	text-align: left;
-	text-decoration: none;
-	list-style-type: circle;
-}
-.brand-footer-margin {
-	color: $color_4;
-	padding: 10px 100px 10px 100px;
-}
-.content-alingn {
-	align-content: space-between;
-	padding: 20px 50px 20px 50px;
-}
-.img-wrapper {
-	max-width: 100%;
-	height: 17em;
-}
-.carousel-inner {
-	padding: 1em;
-}
-.card {
-	margin: 1em;
-}
-@media screen and (min-width:576px) {
-	.carousel-inner2 {
-		display: flex;
-	}
-	.carousel-item2 {
-		display: block;
-		margin-right: 0;
-		flex: 0 0 calc(100%/3);
-	}
-}
-*/
 
 /*# sourceMappingURL=styles.css.map */
