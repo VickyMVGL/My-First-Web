@@ -3,8 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="viewport"> 
+    <meta name="viewport">
 
+    <!--SEO-->
+
+    <meta name="description" content="Code ninjas te ayudara con todos lo que necesites con respecto al desarrollo, desde crear una pagina web hasta realizar un software personalizado para tu empresa">
+    <meta name="keywords" content="pagina web, agencia, desarrollo web, apps moviles, desarrollo mobile, desarrollo sowftware personalizado, consultas software, consultoria, desarrollo">
+
+    <!--Open Graph-->
+
+    <meta property="og:title" content="Code Ninjas" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://vickymvgl.github.io/My-First-Web/"/>
+    <meta property="og:image" content="/assets/Programando.png">
+    
     <!--Bootstrap-->
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
@@ -20,187 +32,167 @@
         <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,800&display=swap" rel="stylesheet">
 
-    <title>Code Ninjas</title>
+    <!--Iconos-->
+
+    <script src="https://kit.fontawesome.com/a8616b6764.js" crossorigin="anonymous"></script>
+
+    <title>Code Ninjas | Home </title>
 </head>
 <body>
     <header>
-      
-      <div class="bg_header">
 
-      </div>  
         <!--Barra de navegacion-->
 
         <div>
-          <nav class="navbar navbar-expand-lg navbar-light navbar-dark bg-dark">
-            <div class="container-fluid">
-              <a class="navbar-brand code">CODE NINJAS</a>
-              <button class="navbar-toggler bg-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                      <a class="btn btn-sm btn-outline-secondary me-2 boton"  href="index.html">Inicio</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="btn btn-sm btn-outline-secondary boton"  href="pages/servicios.html">Servicios</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="btn btn-sm btn-outline-secondary boton"  href="pages/faq.html">FAQ</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="btn btn-sm btn-outline-secondary boton"  href="pages/sobre-nosotros.html">¿Quienes somos?</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="btn btn-sm btn-outline-secondary boton"  href="pages/contact.html">Contactanos</a>
-                  </li>
-              </div>
-            </div>
+          <nav>
+            <input type="checkbox" class="check">
+            <label for="check" class="checkbtn"> <i class="fa-solid fa-bars"> </i> </label>
+            <label class="logo">Code Ninjas</label>
+            <ul>
+              <li> <a href="index.html">Inicio</a></li>
+
+              <li> <a href="pages/servicios.html">Servicios</a></li>
+
+              <li> <a href="pages/faq.html">FAQ</a></li>
+
+              <li> <a href="pages/sobre-nosotros.html">¿Quienes somos?</a> </li>
+
+              <li> <a href="pages/contact.html">Contactanos</a> </li>
+            </ul>
           </nav>
         </div>
     </header>
    
     <main>
-      <section class="intro">
         <!--Parrafo de presentacion-->
-        <div>
-          <section class="container">
-            <div class="texts"> 
-              <h1 class="title">Una Agencia para ti</h1>
-              <p class="subtitle">En nuestra agencia de desarrollo de software, hemos hecho realidad las visiones de innumerables emprendedores y empresas, llevándolas desde una idea brillante hasta una solución tecnológica impactante. Nuestro equipo apasionado y experimentado no solo construye aplicaciones y sistemas, sino que crea experiencias que cambian vidas.</p>
-              <a href="#" class="btn btn-primary boton alingn-center">Sobre Nosotros</a>
-            </div>
-            <figure class="alingn-center">
-              <img src="assets/Programando.png" alt="Imagen programando" class="img">
-            </figure>
-          </section>
+        <div class="intro">
+          <div>
+            <img src="assets/Programando.png" alt="Imagen programando">
+          </div>
+          <div> 
+            <h1 class="header">Una Agencia para ti</h1>
+            <p class="text">En nuestra agencia de desarrollo de software, hemos hecho realidad las visiones de innumerables emprendedores y empresas, llevándolas desde una idea brillante hasta una solución tecnológica impactante. Nuestro equipo apasionado y experimentado no solo construye aplicaciones y sistemas, sino que crea experiencias que cambian vidas.</p>
+            <a href="#" class="btn btn-primary boton boton_2 alingn-center">Sobre Nosotros</a>
+          </div>
         </div>
-      </section>
-    </main>
 
       <!-- nuestros servicios-->
 
           <h2 class="header">Nuestros servicios</h2>
 
-          <section class="container_index">
-            <div class="card">
-              <img src="assets/Des-apps-mobile.png" class="card-img-top" alt="Imagen de desarrollo movil">
-              <div class="card-body">
-                <h5 class="card-title">Desarrollo de</h5>
-                <h5 class="card-title">Aplicaciones Moviles</h5>
+          <div class="container">
+            <div class="tarjeta servicios">
+              <img src="assets/Des-apps-mobile.png" alt="Imagen de desarrollo movil">
+              <div>
+                <h5>Desarrollo de</h5>
+                <h5>Aplicaciones Moviles</h5>
               </div>
             </div>
-            <div class="card">
-              <img src="assets/Des-apps-mobile.png" class="card-img-top" alt="Imagen de desarrollo de sitios web">
-              <div class="card-body">
-                <h5 class="card-title">Desarrollo de</h5>
-                <h5 class="card-title">Sitios Web</h5>
-            </div>
-          </div>
-            <div class="card">
-              <img src="assets/Des-sitios-web.png" class="card-img-top" alt="Imagen de desarrollo de software">
-              <div class="card-body">
-                <h5 class="card-title">Desarrollo de</h5>
-                <h5 class="card-title">software personalizado</h5>
+            <div class="tarjeta servicios">
+              <img src="assets/Des-sitios-web.png" alt="Imagen de desarrollo de sitios web">
+              <div>
+                <h5>Desarrollo de</h5>
+                <h5>Sitios Web</h5>
               </div>
             </div>
-          </section>        
+            <div class="tarjeta servicios">
+              <img src="assets/Des-software.png" alt="Imagen de desarrollo de software">
+              <div>
+                <h5>Desarrollo de</h5>
+                <h5>software personalizado</h5>
+              </div>
+            </div>
+          </div>        
  
         
         <!--Referencias-->
 
-        <section id="referencia" class="flex-container margen">
-            <div id="carouselExampleCaptions" class="carousel slide">
-                <div class="carousel-indicators">
-                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <div id="referencia" class="margen">
+          <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="assets/Ref1.png" class="d-block w-100" alt="Daniel Patel imagen">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Daniel Patel</h5>
+                  <p>"La agencia superó nuestras expectativas con una solución tecnológica que transformó la experiencia de nuestros clientes en nuestra página web"</p>
                 </div>
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img src="assets/Ref1.png" class="d-block w-100" alt="Daniel Patel imagen">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>Daniel Patel</h5>
-                        <p>"La agencia superó nuestras expectativas con una solución tecnológica que transformó la experiencia de nuestros clientes en nuestra página web"</p>
-                    </div>
-                  </div>
-                  <div class="carousel-item">
-                    <img src="assets/Ref2.png" class="d-block w-100" alt="Chloe Anderson imagen">
-                    <div class="carousel-caption d-none d-md-block">
-                      <h5 class="text">Chloe Anderson</h5>
-                      <p class="text">"La agencia es un socio invaluable, ofreciendo soluciones de alta calidad, comunicación clara y soporte constante para impulsar nuestro crecimiento"</p>
-                    </div>
-                  </div>
-                  <div class="carousel-item">
-                    <img src="assets/Ref3.png" class="d-block w-100" alt="Emily Johnson imagen">
-                    <div class="carousel-caption d-none d-md-block">
-                      <h5>Emily Johnson</h5>
-                      <p>"La agencia tradujo brillantemente nuestros desafíos comerciales en soluciones tecnológicas de vanguardia, aumentando nuestra eficiencia"</p>
-                    </div>
-                  </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
               </div>
-        </section>
+              <div class="carousel-item">
+                <img src="assets/Ref2.png" class="d-block w-100" alt="Chloe Anderson imagen">
+                <div class="carousel-caption d-none d-md-block">                    <h5 class="text">Chloe Anderson</h5>
+                  <p class="text">"La agencia es un socio invaluable, ofreciendo soluciones de alta calidad, comunicación clara y soporte constante para impulsar nuestro crecimiento"</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="assets/Ref3.png" class="d-block w-100" alt="Emily Johnson imagen">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Emily Johnson</h5>
+                  <p>"La agencia tradujo brillantemente nuestros desafíos comerciales en soluciones tecnológicas de vanguardia, aumentando nuestra eficiencia"</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
 
         <!--Preguntas Frecuentes-->
 
         <h2 class="header">Preguntas frecuentes</h2>
 
-        <section class="container_index">
-          <div class="card">
-            <img src="assets/Pregunta tiempo.png" class="card-img-top" alt="imagen tiempo">
-            <div class="card-body">
-              <h5 class="card-title">¿Cuánto tiempo se tarda en desarrollar software?</h5>
-              <p class="card-text">El tiempo que se tarda en desarrollar software también varía en función de los factores mencionados anteriormente. En general, los proyectos de desarrollo de software más pequeños pueden completarse en unas pocas semanas o meses, mientras que los proyectos más grandes pueden tardar varios años</p>
-
+        <section class="container">
+          <div class="tarjeta preguntas">
+            <img src="assets/Pregunta tiempo.png"  alt="imagen tiempo">
+            <div>
+              <h5>¿Cuánto tiempo se tarda en desarrollar software?</h5>
+              <p>El tiempo que se tarda en desarrollar software también varía en función de los factores mencionados anteriormente. En general, los proyectos de desarrollo de software más pequeños pueden completarse en unas pocas semanas o meses, mientras que los proyectos más grandes pueden tardar varios años</p>
             </div>
           </div>
-          <div class="card">
-            <img src="assets/Pregunta_Codigo.png" class="card-img-top" alt="imagen software">
-            <div class="card-body">
-              <h5 class="card-title">¿Qué lenguajes de programación se utilizan para el desarrollo de software?</h5>
-              <p class="card-text">Hay muchos lenguajes de programación diferentes que se utilizan para el desarrollo de software. Los lenguajes de programación más populares incluyen Java, Python, C++, PHP y JavaScript. El lenguaje de programación que se utiliza para un proyecto en particular dependerá de las necesidades específicas del proyecto</p>
+          <div class="tarjeta preguntas">
+            <img src="assets/Pregunta_Codigo.png" alt="imagen software">
+            <div>
+              <h5>¿Qué lenguajes de programación se utilizan para el desarrollo de software?</h5>
+              <p>Hay muchos lenguajes de programación diferentes que se utilizan para el desarrollo de software. Los lenguajes de programación más populares incluyen Java, Python, C++, PHP y JavaScript. El lenguaje de programación que se utiliza para un proyecto en particular dependerá de las necesidades específicas del proyecto</p>
             </div>
           </div>
-          <div class="card">
+          <div class="tarjeta preguntas">
             <img src="assets/Pregunta herramientas.png" class="card-img-top" alt="imagen herramientas">
-            <div class="card-body">
-              <h5 class="card-title">¿Qué herramientas se utilizan para el desarrollo de software?</h5>
-              <p class="card-text">Hay muchas herramientas diferentes que se utilizan para el desarrollo de software. Las herramientas más populares incluyen IDE (Integrated Development Environment), compiladores, depuradores y entornos de pruebas. Las herramientas que se utilizan para un proyecto en particular dependerán de las necesidades específicas del proyecto</p>
+            <div>
+              <h5>¿Qué herramientas se utilizan para el desarrollo de software?</h5>
+              <p>Hay muchas herramientas diferentes que se utilizan para el desarrollo de software. Las herramientas más populares incluyen IDE (Integrated Development Environment), compiladores, depuradores y entornos de pruebas. Las herramientas que se utilizan para un proyecto en particular dependerán de las necesidades específicas del proyecto</p>
             </div>
           </div>
         </section>
         <div class="alingn-center"> 
-          <a class="btn boton" href="pages/FAQ.html" role="button">Ver mas preguntas frecuentes</a>
+          <a class="btn boton boton_2" href="pages/FAQ.html" role="button">Ver mas preguntas frecuentes</a>
         </div>
-
     </main>
-
-
     <footer>
-        <div class="container-fluid flex-container bg-dark content-alingn">
-          <div>  
-            <a class="btn boton" href="pages/contact.html" role="button">Direccion</a>
-            <a class="btn boton" href="pages/contact.html" role="button">Contacto</a>
-          </div>
-          <div class="brand-footer-margin">
-            <a class="navbar-brand">CODE NINJAS</a>
-          </div>
-          <div>
-            <a class="btn boton" href="#" role="button">Instagram</a>
-            <a class="btn boton" href="#" role="button">Facebook</a>
-            <a class="btn boton" href="#" role="button">Twitter</a>
-          </div>
-        </div>
 
+      <div class="footer-content">
+        <h3>Code Ninjas</h3>
+        <p>Una agencia para ti</p>
+
+        <ul class="rrss">
+          <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+          <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+          <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+          <li><a href="https://www.linkedin.com/in/victoria-gonzalez-8a2531296/"><i class="fa-brands fa-linkedin"></i></a></li>
+          <li><a href="https://github.com/VickyMVGL"><i class="fa-brands fa-github"></i></a></li>
+        </ul>
+
+      </div>
     </footer>
   
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
